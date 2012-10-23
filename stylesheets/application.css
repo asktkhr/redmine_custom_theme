@@ -1,0 +1,95 @@
+@import url(../../../stylesheets/application.css);
+@import url(../../alternate/stylesheets/application.css);
+
+/* top-menu */
+div#top-menu {
+  margin: 0px;
+}
+
+/* history */
+div#history > h3 {
+  border-bottom: solid 1px #898989;
+  font-size: 16pt;
+}
+
+div#history h4 {
+  width: 90% !important;
+  border-bottom: dotted 2px #444;
+  font-size: 13px;
+  margin-left: 15px !important;
+}
+
+div#history > div.journal {
+  border-bottom: solid 1px #aaa;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div#history > div.journal > * {
+  width:80%;
+  margin-left:50px;
+}
+
+div#history > div.journal:nth-child(odd) {
+  background: #f3f3f3;
+}
+
+/* wiki */
+.wiki h1, .wiki h2, .wiki h3, .wiki h4 {
+  padding-left: 10px;
+}
+
+.wiki h1, .wiki h2 {
+  padding-left: 10px;
+  border-bottom: solid 2px #aaa;
+}
+
+.wiki h3, .wiki h4 {
+  padding-left: 10px;
+  border-bottom: solid 1px #aaa;
+}
+
+.wiki h1 {
+  border-left: solid 12px #aaa;
+}
+
+.wiki h2 {
+  border-left: solid 8px #aaa;
+}
+
+.wiki h3 {
+  border-left: solid 4px #aaa;
+}
+
+.wiki h4 {
+  border-left: solid 2px #aaa;
+}
+
+/* document */
+body.controller-documents.action-index div#content > div.wiki {
+  display: none;
+}
+
+body.controller-documents.action-index div#content > h3{
+  border-left: solid 4px #aaa;
+  border-bottom: solid 1px #aaa;
+  padding-left: 10px;
+}
+
+body.controller-documents.action-index div#content > h4 {
+  margin-bottom: 0px;
+}
+
+body.controller-documents div#content > p {
+  border-bottom: dotted 2px #777;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+body.controller-documents div#content > h2 {
+  border-left: solid 8px #aaa;
+  border-bottom: solid 2px #aaa;
+  padding-left: 10px;
+}
+
